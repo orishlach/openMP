@@ -18,10 +18,14 @@ double dabs(double d){return (d<0.0?d:(-d));}
 
 void seqMatMult(int m, int n, int p, double** A, double** B, double** C)   
 {    
-  for (int i = 0; i < m; ++i)   
-      for (int k = 0; k < p; ++k)   
-         for (int j = 0; j < n; ++j)    
-            C[i][j] += A[i][k]*B[k][j];   
+	int i, j, k; 
+
+	for (i = 0; i < m; i++)   
+		for (j = 0; j < n; j++){          
+			C[i][j]=0;   
+			for (k = 0; k < p; k++)   
+				C[i][j] += A[i][k]*B[k][j];   
+		}  
 }  
   
 void matmultleaf(int ml, int nl, int pl, double **A, double **B, double **C)    
