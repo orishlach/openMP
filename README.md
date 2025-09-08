@@ -107,4 +107,4 @@
 - [OpenMP Official Tutorial](https://github.com/tgmattso/OpenMP_intro_tutorial)
 - [Parallel programming with OpenMP
 by Mr Orian Louant](https://indico.cism.ucl.ac.be/event/72/?print=1)  
-- Seminar slides: *Hands-on Introduction to OpenMP*  
+- Seminar slides: [Hands-on Introduction to OpenMP](https://github.com/orishlach/openMP/blob/main/Hands-on%20Introduction%20to%20OpenMP.pdf)
