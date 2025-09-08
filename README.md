@@ -10,7 +10,7 @@
   
   <!-- Links -->
   <h4>
-    <a href="#projects">View Examples</a>
+    <a href="#examples">View Examples</a>
     <span> · </span>
     <a href="#quick-start">Quick Start</a>
   </h4>
